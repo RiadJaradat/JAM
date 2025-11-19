@@ -1,3 +1,9 @@
+/*
+ * an older version of the compiler loop that will generate Windows suitable code
+ * (notice) this would not work on mac nor linux this will only generate code for windows 
+ * (notice) this version is slightly worse than the newer c++ compiler
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
