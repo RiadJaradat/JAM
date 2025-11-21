@@ -4,6 +4,8 @@
  * this is a full Compiler and runner that take a source code and turns into .exe file
  */
 
+#include <cstdio>
+#include <exception>
 #include <iostream>
 #include "properties.h"
 #include <stdexcept> 
@@ -36,7 +38,12 @@ void done() {
 
 
 void code_loop(const char* path) {
-    FILE *f = fopen(path, "r");
+    FILE *f;   
+    try{
+   	 FILE *f = fopen(path, "r");
+    } catch (exception e) {
+	    cerr << "FileNotFoundErr: " << Err::FileNotFoundErr << endl;
+    }
     Token t;
     Token next;
     while ((t = getNextToken(f)).type != TOKEN_EOF) {

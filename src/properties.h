@@ -9,6 +9,7 @@ namespace Err {
     const string retErr = "Function 'return' not called";
     const string noSourceErr = "No source code found";
     const string noStartPoint = "No Start point found";
+    const string FileNotFoundErr = "The File Provided was not found by the compiler";
 }
 
 typedef enum
