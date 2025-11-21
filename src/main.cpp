@@ -8,7 +8,7 @@
 #include <exception>
 #include <iostream>
 #include "properties.h"
-#include <stdexcept> 
+#include <stdexcept>  // type: ignore
 
 using namespace std;
 
