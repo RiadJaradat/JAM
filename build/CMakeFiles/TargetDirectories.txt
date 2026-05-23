@@ -1,0 +1,3 @@
+/home/riad/Projects/Compiler/CJAM/build/CMakeFiles/CJAM.dir
+/home/riad/Projects/Compiler/CJAM/build/CMakeFiles/edit_cache.dir
+/home/riad/Projects/Compiler/CJAM/build/CMakeFiles/rebuild_cache.dir

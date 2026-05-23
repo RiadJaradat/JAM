@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/CJAM.dir/src/main.cpp.o -o CJAM 
